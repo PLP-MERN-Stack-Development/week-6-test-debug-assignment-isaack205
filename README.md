@@ -69,6 +69,32 @@ mern-testing/
 - Cypress/Playwright: End-to-end testing framework
 - MongoDB Memory Server: In-memory MongoDB for testing
 
+## Running Tests
+
+### Client-side Test
+
+To run the sample React test (`sample.test.jsx`):
+
+```sh
+cd client
+npm test -- src/sample.test.jsx
+```
+
+### Server-side Test
+
+To run the server test (`server.test.js`):
+
+```sh
+cd server
+npm test
+```
+
+You can also run a specific server test file with:
+
+```sh
+npm test -- <test-file>
+```
+
 ## Submission
 
 Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
@@ -85,4 +111,4 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro/)
 - [Supertest Documentation](https://github.com/visionmedia/supertest)
 - [Cypress Documentation](https://docs.cypress.io/)
-- [MongoDB Testing Best Practices](https://www.mongodb.com/blog/post/mongodb-testing-best-practices) 
+- [MongoDB Testing Best Practices](https://www.mongodb.com/blog/post/mongodb-testing-best-practices)
